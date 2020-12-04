@@ -63,7 +63,7 @@ album3 = 'Abbey Road'
 # method will take a str
 def no_vowels str
     # delete the vowels in the str if str has vowels a, e, i, o, u
-     str.delete 'aeiou'
+     str.delete 'aeiouAEIOU'
 end
 # return the modified str
 p no_vowels album1
@@ -80,8 +80,12 @@ nums_array2 = [25, 17, 47, 11]
 
 # method will take an array
 def sum_of array
-# add the numbers of the array
-    array.sum
+# add the numbers of the array, these are three different ways I found
+    array.inject{ |sum, value| sum += value}
+        # or
+    # array.map(&:to_i).reduce(0, :+)
+        # or
+    # array.sum
 end
 p sum_of nums_array1
 p sum_of nums_array2

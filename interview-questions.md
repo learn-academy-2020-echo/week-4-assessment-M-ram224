@@ -14,7 +14,7 @@ Your answer:
 
 Researched answer:
 
-- Yes Ruby methods are accessors because they access the element put inside of its method.
+- Yes Ruby methods are accessors because they access the element put inside of its method, they can only be a mutator with the !bang operator.
 
 2. What is a block in Ruby?
 
@@ -74,8 +74,8 @@ Researched answer:
 
 - CRUD: Short for Create, Read, Update, and Delete, its be basicfunctions for persistent storage, it can also sometimes be used to describe user interface viewing, searching, and changing info using computer-based forms and reports.
 
-- Ruby on Rails: Ruby Ii a sever-side web app framework, and Rails is a model-view-controller framework that provides structure for a database a web service and web pages. Uses seamless database table creations, migrations and scaffolding to enable rapid application development.
+- Ruby on Rails: Ruby is a sever-side web app framework, and Rails is a model-view-controller framework that provides structure for a database a web service and web pages. Uses seamless database table creations, migrations and scaffolding to enable rapid application development.
 
-- ORM: Short for Object-Realational Mapping, its a technique for converting data between incompatible type systems using object-roriented programming languages.
+- ORM: Short for Object-Relational Mapping, its a technique for converting data between incompatible type systems using object-roriented programming languages.
 
-- Active Record: houses the creation and use of objects whose data requires persistent storage to a database, it lets you specify in advance all the associations that are going to be loaded.
+- Active Record: The model layer of Ruby on Rails, houses the creation and use of objects whose data requires persistent storage to a database, it lets you specify in advance all the associations that are going to be loaded.
